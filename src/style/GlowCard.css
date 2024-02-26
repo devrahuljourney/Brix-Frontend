@@ -1,0 +1,67 @@
+.glowcard__container {
+    padding-top: 3%;
+    padding: 5%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #fff;
+    overflow-x: auto;
+}
+.glowcard__container::-webkit-scrollbar {
+    width: 0;
+}
+
+.glowcard__lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: start;
+    background: #ffffff18;
+    padding: 20px;
+    border: 1px solid #ffffff30;
+    backdrop-filter: blur(1.5rem);
+    border-radius: 42px;
+    width: 330px;
+    height: 400px;
+    position: relative;
+}
+.card__title{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.card__description{
+    font-size: 18px;
+    font-weight: 200;
+}
+.link {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.1s all linear;
+}
+.link:hover{
+    color: blue;
+}
+.light {
+    z-index: 1;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    mix-blend-mode: multiply; 
+    background: radial-gradient(circle at var(--x) var(--y), rgba(35, 248, 67, 0.743) , transparent 50%); 
+}

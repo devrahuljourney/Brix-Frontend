@@ -1,0 +1,289 @@
+/* .nav__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+  }
+  .nav__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+  }
+  .nav__link {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    color: white;
+  }
+  
+  .nav__conditional {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__logo__link {
+    width: 60%;
+    display: flex;
+    justify-content: spac-around;
+  }
+  .nav_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .nav__li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav__ele {
+    position: absolute;
+    
+  }
+  .navbar__search{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav_contact_btn {
+    all:unset;
+    background: none;
+  }
+   */
+
+   /* navbar css */
+.nav__container{
+  
+  display: flex;
+  height:83px;
+  background-color: #000000;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.nav__left{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  align-items: center;
+}
+.nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  padding: 10px;
+}
+.nav__link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav__conditional{
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__ele{
+  position: absolute;
+  
+}
+.nav__li {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.nav_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.conditional__render{
+  position: absolute;
+
+  transform: translateX(10px);
+  transform: translateY(1px);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, .7),
+  0 0 40px rgba(0, 123, 255, .7);
+}
+.nav__right{
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar__search{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+/* navsearch css */
+
+.search__container{
+  /* z-index: 30; */
+  display: flex;
+  flex-direction: column;
+  
+}
+.search__btn {
+  
+  all: unset;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  background-color: #1A1A26;
+  color: #AFAFAF;
+  border: 1px solid #353535;
+  font-weight: 400;
+  
+  padding: 10px;
+  border-radius: 50px;
+}
+.w{
+  width: 305px;
+  height: 30px;
+}
+.nav__contact_btn{
+  width: 204px;
+
+}
+.nav__contact_btn:hover{
+  background-color: #6666FF;
+  border: 1px solid white;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #6666FF,
+  0 0 40px #6666FF
+  ;
+  transition: all ease-in 0.3s;
+}
+
+.input__div{
+  position: relative;
+}
+.search__neon{
+  
+  position: absolute;
+  background-color: black;
+  box-shadow: 
+  0 0 80px #6666FF
+  ;
+  top: 14%;
+  left: 20%;
+  border-radius: 40px;
+}
+.input__div{
+  padding: 10px;
+  
+}
+.search__div{
+  
+  width: 900px;
+  
+  display: flex;
+  gap: 10px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+  padding: 10px;
+  border-radius: 40px;
+  
+  border: 2px solid #6666FF;
+}
+.search__input{
+  width: 100%;
+  all: unset;
+}
+
+
+/* Navbar.css */
+.popup {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.navcard__link__container:hover .popup {
+  display: block; 
+}
+
+
+
+.navcard__link__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 10px;
+  
+  
+}
+.navcard__category{
+  font-weight: 400;
+}
+
+.navcard__link a{
+  
+  color: #353535;
+  font-size: 17px;
+  font-weight: 300;
+  
+}
+.navcard__link a:hover{
+  color: #6666FF;
+}
+.navcard__ul{
+  padding: 10px;
+}
+.line{
+  border-bottom: 1px solid #353535;
+  width: 100%;
+  height: 1px;
+}
+.navcard__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}

@@ -1,0 +1,24 @@
+/* Brix.css */
+.brix {
+    font-size: 300px;
+    z-index: 0;
+    line-height: 365.7px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    position: relative; 
+    display: inline-block;
+}
+
+
+.brix .light {
+    z-index: 1;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    mix-blend-mode: multiply; 
+    background: radial-gradient(circle at var(--x) var(--y), rgba(35, 35, 248, 0.743), transparent 20%); 
+}

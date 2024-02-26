@@ -1,0 +1,32 @@
+.solution__container{
+    display: flex;
+    background-color: #000;
+    padding: 20px;
+    flex-direction: column;
+    overflow-x: auto;
+
+}
+.link:hover .hoverEffect {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    z-index: -1;
+  }
+  .hoverEffect {
+    display: none;
+  }
+  .card__container{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .button{
+    width: 412px;
+    height: 123px;
+  }
