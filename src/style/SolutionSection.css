@@ -1,32 +1,53 @@
-.solution__container{
-    display: flex;
-    background-color: #000;
-    padding: 20px;
-    flex-direction: column;
-    overflow-x: auto;
-
+/* SolutionSection.css */
+.solution__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: start;
+  width: 100%;
+  background-color: #000;
+  padding: 20px;
 }
-.link:hover .hoverEffect {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: inherit;
-    z-index: -1;
-  }
-  .hoverEffect {
-    display: none;
-  }
-  .card__container{
-    width: 100%;
-    display: flex;
-    overflow-x: auto;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .button{
-    width: 412px;
-    height: 123px;
-  }
+
+.scrollable__container {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
+.scrollable__container::-webkit-scrollbar {
+  display: none;
+}
+.card__container {
+  display: inline-flex; 
+  gap: 40px; 
+}
+
+.button {
+  width: 412px; 
+  height: 143px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 8px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.link-btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+
