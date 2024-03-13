@@ -1,5 +1,7 @@
 import logo from '../assets/code.png'
 import logo1 from '../assets/box.png'
+import logo2 from '../assets/google.png'
+
 
 
 
@@ -30,6 +32,30 @@ export const techTab = [
             },
             {
                 logo:logo,
+                name:"Python"
+            },
+            {
+                logo:logo1,
+                name:"Python"
+            },
+            {
+                logo:logo1,
+                name:"Python"
+            },
+            {
+                logo:logo1,
+                name:"Python"
+            },
+            {
+                logo:logo1,
+                name:"Python"
+            },
+            {
+                logo:logo1,
+                name:"Python"
+            },
+            {
+                logo:logo1,
                 name:"Python"
             },
             {
@@ -86,11 +112,11 @@ export const techTab = [
         tag: "Mobile",
         details: [
             {
-                logo:logo,
+                logo:logo2,
                 name:"Python"
             },
             {
-                logo:logo,
+                logo:logo2,
                 name:"Python"
             },
             {
@@ -118,7 +144,7 @@ export const techTab = [
         tag: "Database",
         details: [
             {
-                logo:logo,
+                logo:logo2,
                 name:"Python"
             },
             {
@@ -130,7 +156,7 @@ export const techTab = [
                 name:"Python"
             },
             {
-                logo:logo,
+                logo:logo2,
                 name:"Python"
             },
             {
@@ -166,7 +192,7 @@ export const techTab = [
                 name:"Python"
             },
             {
-                logo:logo,
+                logo:logo1,
                 name:"Python"
             },
             {
@@ -174,7 +200,7 @@ export const techTab = [
                 name:"Python"
             },
             {
-                logo:logo,
+                logo:logo1,
                 name:"Python"
             }
         ]
@@ -190,7 +216,7 @@ export const techTab = [
                 name:"Python"
             },
             {
-                logo:logo,
+                logo:logo2,
                 name:"Python"
             },
             {
@@ -202,7 +228,7 @@ export const techTab = [
                 name:"Python"
             },
             {
-                logo:logo,
+                logo:logo2,
                 name:"Python"
             },
             {
